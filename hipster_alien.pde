@@ -32,4 +32,7 @@ void draw() {
   ellipse(x+width/24, 15*height/32, width/16, height/12);
   arc(x, 17*height/32, width/16, height/16, 0, PI);
   x = x + 5;
+  if (x>width) {
+    x = 0;
+  }
 }
